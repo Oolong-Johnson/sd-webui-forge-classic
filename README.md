@@ -1,4 +1,4 @@
-<h1 align="center">Stable Diffusion WebUI Forge - Neo</h1>
+<h1 align="center">Stable Diffusion WebUI Forge - </h1>
 
 <p align="center"><sup>
 [ <a href="https://github.com/Haoming02/sd-webui-forge-classic/tree/classic#stable-diffusion-webui-forge---classic">Classic</a> | Neo ]
@@ -237,7 +237,7 @@ The name "Forge" is inspired by "Minecraft Forge". This project aims to become t
 0. Install **[git](https://git-scm.com/downloads)**
 1. Clone the Repo
     ```bash
-    git clone https://github.com/Haoming02/sd-webui-forge-classic sd-webui-forge-neo --branch neo
+    git clone https://github.com/Oolong-Johnson/sd-webui-forge-classic Forge-NeoN --branch NeoN
     ```
 
 2. Setup Python
@@ -290,7 +290,7 @@ The name "Forge" is inspired by "Minecraft Forge". This project aims to become t
 > Do **not** just blindly install all of them <br>
 > Nowadays the native PyTorch `scaled_dot_product_attention` is usually as fast, and also more stable
 
-**Forge Neo** tries to import the packages and automatically choose the first available attention function in the following order:
+**Forge ** tries to import the packages and automatically choose the first available attention function in the following order:
 
 1. `SageAttention`
 2. `FlashAttention`
